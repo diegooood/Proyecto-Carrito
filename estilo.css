@@ -3,8 +3,17 @@ body{
 }
 @font-face {
     font-family: 'Kirsty';
-    src: url('fuentes/kirsty bd.otf') format('truetype');
+    src: url('fuentes/kirsty_bd-webfont.woff2') format('woff2');
   }
   body {
     font-family: 'Kirsty', sans-serif;
   }
+@font-face {
+    font-family: 'Kirsty';
+    src: url('fuentes/kirsty_bd-webfont.woff2') format('woff2');
+  }
+  h2{
+  text-align: left;
+  font-family: 'Kirsty', sans-serif;
+  color: goldenrod;
+}
