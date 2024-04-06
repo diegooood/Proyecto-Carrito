@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(to bottom right, #000000,80%, #ffd700);
+}
+@font-face {
+    font-family: 'Kirsty';
+    src: url('fuentes/kirsty bd.otf') format('truetype');
+  }
+  body {
+    font-family: 'Kirsty', sans-serif;
+  }
