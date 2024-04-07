@@ -12,7 +12,7 @@ body{
     font-family: 'Kirsty';
     src: url('fuentes/kirsty_bd-webfont.woff2') format('woff2');
   }
-  h2{
+  .titulohoodie{
   text-align: left;
   font-family: 'Kirsty', sans-serif;
   color: goldenrod;
@@ -71,9 +71,33 @@ body{
   transition: all 400ms ease;
 }
 
-.card + hr {
-  display: none; /* Oculta todas las líneas <hr> que estén directamente después de .card */
+@font-face {
+  font-family: 'Kirsty';
+  src: url('fuentes/kirsty_bd-webfont.woff2') format('woff2');
 }
+.textotitulo{
+text-align: center;
+font-family: 'Kirsty', sans-serif;
+color: goldenrod;
+}
+
+@font-face {
+  font-family: 'Kirsty';
+  src: url('fuentes/kirsty_bd-webfont.woff2') format('woff2');
+}
+.textocontacto{
+text-align: center;
+font-family: 'Kirsty', sans-serif;
+color: white;
+}
+
+.cardredes{
+  color: goldenrod;
+}
+
+
+
+
 
 .carousel slide2 img{
   width: 100%;
