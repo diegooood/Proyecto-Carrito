@@ -47,49 +47,100 @@
     </div>
     <br>
 
-    <!--DIV DE CAROUSEL-->
-    <div>
-      <div style="margin: 100px;">
-        
-      <div id="carouselExampleCaptions" class="carousel slide" style="width: 1000px;">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="imagenes/img1.webp" class="d-block w-100" alt="Imagen1"> 
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="imagenes/img2.webp" class="d-block w-100" alt="Imagen2">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="imagenes/img3.webp" class="d-block w-100" alt="Imagen3">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <div class="container-titulo"><h2>Hoddie oversize heavyweight® gris melange</h2></div>
+    <main>
+    <!--DIV IMAGEN -->
+    <div class="container-img">
+          <img src="imagenes/card2.webp" alt="imagen hoodie1" style="max-width:800px; max-height: 700px; ">
+    </div>
+
+    <!--DIV INFO HOODIE-->
+    <div class= "container-datos-producto">
+      <div class="container-precio">
+        <span>CLP$30.000</span>
       </div>
+      <br>
+      <div class="container-detalles-producto">
+        <div class="form-group">
+          <label for="colour">Color</label>
+          <select name="colour" id="colour">
+            <option disabled selected value="">Escoge una opción</option>
+            <option value="gris">Gris</option>
+            <option value="blanco">Blanco</option>
+            <option value="negro">Negro</option>
+          </select>
+            </div>
+            <div class="form-group">
+              <label for="size">Talla</label>
+              <select name="size" id="size">
+                <option disabled selected value="">Escoge una opción</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="XL">XL</option>
+              </select>
         </div>
-  </div>
+        
+        <button class="btn-clean">Limpiar</button>
+      </div>
+      <div>
+        <button class="btn-agregar-al-carro">Añadir al Carrito</button>
+      <div class="container-agregar-carro">
+        <div class="container-cantidad">
+          <input type="number" name="" id="" placeholder="1" value="1" min="1">
+        </div>
+      </div>
+      <div class="container-descripcion">
+        <div class="title-descripcion">
+          <h4>DESCRIPCIÓN DEL PRODUCTO</h4>
+        </div>
+        <div class="text-descripcion">
+          <p>Nuevo Polerón canguro heavyweight color gris melange, calidad Premium, Material 100 % Algodón, 500 grs. Tela Pre encogida y suavizada. Fit oversize.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+    <section class="container-relacionados">
+      <h2>Productos Relacionados</h2>
+      <div class="card-list-products">
+        <div class="card-relacionados">
+          <div>
+            <img src="imagenes/Hoodie-dragón.webp" alt="prodcutorelacionado-1" style="max-width: 600px; max-height: 500px;">
+          </div>
+          <div class="info-card-relacionados">
+            <div class="text-producto">
+              <h3>Hoodie trendy Dragón</h3>
+              <p class="category">Hoodie</p>
+            </div>
+            <div class="price">CLP$20.000</div>
+          </div>
+        </div>
+        <div class="card-relacionados">
+          <div>
+            <img src="imagenes/Hoodie Good Vibes.webp" alt="prodcutorelacionado-2" style="max-width: 600px; max-height: 500px;">
+          </div>
+          <div class="info-card-relacionados">
+            <div class="text-producto">
+              <h3>Hoodie Good Vibes</h3>
+              <p class="category">Hoodie</p>
+            </div>
+            <div class="price">CLP$24.000</div>
+          </div>
+        </div>
+        <div class="card-relacionados">
+          <div>
+            <img src="imagenes/Hoodie Monkey.webp" alt="prodcutorelacionado-3" style="max-width: 600px; max-height: 500px;">
+          </div>
+          <div class="info-card-relacionados">
+            <div class="text-producto">
+              <h3>Hoodie Monkey</h3>
+              <p class="category">Hoodie</p>
+            </div>
+            <div class="price">CLP$15.000</div>
+          </div>
+        </div>
+      </div>
+    </section>
 </body>
 </html>
